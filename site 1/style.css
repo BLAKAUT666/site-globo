@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner-topo-config{
+    margin: auto 20px auto 10px;
+}
+.conteiner-list ul{
+    display: flex;
+    list-style-type: none;
+}
+.conteiner-list a{
+    padding-inline: 10px;
+    text-decoration: none;
+    text-wrap: wrap;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+}
+.conteiner-list a:hover{
+    background-color: dimgray;
+    border-radius: 14px;
+    height: 40px;
+}
+.conteiner-list-left{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.conteiner-topo-center-left-right{
+    background-color: #ce0909;
+    height: 85px;
+}
+.display-intern{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    color: #fff;
+}
+.display-intern #p1{
+    margin: 30px 10px auto 120px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.display-intern #p1::after{
+    content: ':';
+    color: #fff;
+    margin-top: -10px;
+}
+.display-intern #p2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    margin-top: 23px;
+    margin-right: 370px;
+}
+.display-intern #p3{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+#input-left{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+#input-left input{
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, sans-serif, serif;
+    border: none;
+}
+.conteiner-meio-title{
+    color: #000;
+    font-family: Verdana, serif, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 400px 0px 400px;
+}
+.conteiner-p-meio-center{
+    color: #000;
+    margin: -10px 400px 10px 400px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#img-center-imgs img{
+    height: 550px;
+    margin-top: 50px;
+}
+#img-center-img img{
+    height: 550px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.text{
+    background-color: #c29494;
+}
+.adhasdsad{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-conteiner-fundo{
+    background-color:#ce0909;
+    border-top: 5px solid darkblue;
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    bottom: 0;
+}
+.conteiner-list-1{
+    margin: 10px 80px 30px 80px;
+    color: #fff;
+}
